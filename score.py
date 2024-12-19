@@ -10,7 +10,15 @@ Original file is located at
 score = input().split()
 
 countF = 0
+total = 0
 for i in score:
-  if int(i) < 60:
-      countF +=1
+    num = int(i)
+    total += num
+    if num < 60:
+        countF += 1
+
+
+average = total / len(score)
+
 print(countF)
+print(average)
