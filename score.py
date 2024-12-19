@@ -8,8 +8,17 @@ Original file is located at
 """
 
 score = input().split()
+max = score[0]
+min = score[0]
 
 countF = 0
 for s in score:
   if int(s) += 1
 print(countF)
+
+if score[i] > max:
+  max = score[i]
+elif score[i] < min:
+  min = score[i]
+
+print('max:{max}min:{min}')
